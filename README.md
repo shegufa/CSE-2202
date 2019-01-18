@@ -1,4 +1,5 @@
 # CSE-2202
 Data Structure &amp; Algorithm 
 
-This is a really easy problem from codemarshal named N-gon. it's complexity is O(1) for each test case. 
+This is a course based on algorithm. It includes complexity analysis, greedy algorithm, divide & conquer etc based problems 
+& more. 
