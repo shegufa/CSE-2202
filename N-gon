@@ -1,0 +1,31 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int T;
+    scanf("%d",&T);
+
+    long long x,n,a;
+    double angle;
+
+    for(int i=1;i<=T;i++)
+    {
+       scanf("%lld",&x);
+
+       if(x==0 || x%180!=0) printf("Case %d: Impossible\n",i);
+       else
+       {
+           n = (x/180)+2;
+           angle = x/((1.0)*n);
+
+           if(angle-(floor(angle))>ceil(angle)-angle)
+            a = (long long int) (ceil(angle));
+           else
+            a = (long long int) (floor(angle));
+           printf("Case %d: %lld %lld\n",i,n,a);
+       }
+    }
+
+    return 0;
+}
